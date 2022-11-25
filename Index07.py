@@ -6,4 +6,11 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    if len(s)>=n:
+        return True
+    else :
+        return False
+
+    
+
+print(main("good",7))
